@@ -1,0 +1,101 @@
+/* Celotna stran */
+body {
+    font-family: Arial;
+    background-color: #2A1B3D;
+    color: #2A1B3D;
+}
+
+/* Glava */
+header {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #B388FF;
+    color: #2A1B3D;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Logo slika */
+.logo {
+    float: left;
+}
+.slika {
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+	
+}
+
+/* Glavna vsebina */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Sekcije */
+section {
+    background-color: #F5F2FF;
+    margin-bottom: 20px;
+    padding: 15px;
+	border-radius: 10px;
+
+}
+
+/* Naslovi */
+h2 {
+    color: #7C4DFF;
+}
+
+/* Povezave */
+a {
+    color: #7C4DFF;
+}
+.meni {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #2A1B3D;
+    padding: 10px;
+}
+
+.meni a {
+    color: #F5F2FF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.meni a:hover {
+    color: #B388FF;
+}
+
+.vir {
+    font-size: 12px;
+    text-align: center;
+    color: gray;
+}
+
+
+@media (max-width: 768px) {
+    
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo {
+        float: none;
+    }
+
+    .meni {
+        flex-direction: column;
+    }
+}
