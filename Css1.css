@@ -70,8 +70,8 @@ a {
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
+    flex-shrink: 0;
 }
-
 .meni a:hover {
     color: #B388FF;
 }
