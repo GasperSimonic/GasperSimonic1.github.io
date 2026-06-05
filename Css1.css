@@ -79,12 +79,6 @@ a {
     color: #B388FF;
 }
 
-.vir {
-    font-size: 12px;
-    text-align: center;
-    color: gray;
-}
-
 /* Za druge naprave */
 @media (max-width: 768px) {
     
